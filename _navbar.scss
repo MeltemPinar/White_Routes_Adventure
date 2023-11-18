@@ -1,0 +1,42 @@
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: $text-color;
+    padding: 20px;
+    align-items: center;
+    
+  
+    &-links {
+      display: flex;
+      text-decoration: none;
+      list-style: none;
+      gap: 10px;
+      align-items: center;
+      
+      
+
+    }
+    &.navbar-logo{
+        display: flex;
+    }
+    img{
+        width: 150px;
+        margin-top: -70px;
+    }
+    ul img{
+        width: 50px;
+        margin-right: -55px;
+        margin-bottom: -30px;
+    }
+    
+    
+    
+  
+    
+
+    
+  }

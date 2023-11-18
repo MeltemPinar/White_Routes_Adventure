@@ -1,0 +1,25 @@
+.header {
+    height: 100vh; /*viewportheight*/
+    width: 100vw; /*viewportwidth*/
+    background-image: url("./img/header-bg.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    &-content {
+      color: $text-color;
+      text-align: center;
+  
+      h1 {
+        font-size: 7vmin;
+        margin-bottom: 30px;
+        margin-top: 50px;
+      }
+  
+      h2 {
+        font-size: 4vmin;
+      }
+    }
+  }
